@@ -1,0 +1,11 @@
+# Ignoruj wszystkie pliki i foldery
+/*
+
+# Nie ignoruj folderów, w których mogą być pliki .asm
+!*/
+
+# Nie ignoruj plików .asm w tych folderach
+!**/*.asm
+
+# Nie ignoruj pliku .gitignore
+!.gitignore
